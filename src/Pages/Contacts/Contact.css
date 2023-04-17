@@ -1,0 +1,33 @@
+.contact-page h2 {
+  font-size: 2rem;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(239, 239, 239);
+  width: 26%;
+  max-height: 480px;
+  margin: 0px auto;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+.contact-input {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #808080;
+}
+label {
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.contact-btn {
+  border: none;
+  background-color: darkolivegreen;
+  color: white;
+  font-weight: bold;
+  padding: 6px 14px;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}

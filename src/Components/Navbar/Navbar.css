@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+
+  padding: 0 20px;
+}
+.logo-desktop p {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.nav-ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+.nav-ul li {
+  margin: 0 10px;
+  color: white;
+}
+.nav-ul li a {
+  color: white;
+}
