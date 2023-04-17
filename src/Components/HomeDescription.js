@@ -1,11 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "../Pages/Home/Home.css";
 
 const HomeDescription = ({ handleClick }) => {
-  let navigate = useNavigate();
-  //   () => navigate("/recipes")
-
   return (
     <div className="flex">
       <h1>Tomi's Recipe App</h1>
